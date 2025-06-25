@@ -1,0 +1,64 @@
+body {
+    background-size: contain; /* squishes the image to fit */
+    background-repeat: no-repeat;
+    background-position: center center; /* centers it both horizontally and vertically */
+    background-attachment: fixed; /* optional: prevents scrolling */
+    background-color: black;
+}
+
+/* Hidden by default */
+.overlay {
+    height: 100%;
+    width: 0; /* <<< hides it */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.95);
+    overflow-x: hidden;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  /* The close (X) button */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Menu links */
+  .overlay .overlay-content {
+    position: relative;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .overlay .overlay-content a {
+    padding: 10px;
+    display: block;
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .overlay .overlay-content a:hover {
+    color: #ccc;
+  }
+
+.form-box h2 {
+    color: #fff;
+}
+
+.login-register {
+    color: #fff;
+}
+
+.login-register p a {
+    color: #fff;
+}
+  
