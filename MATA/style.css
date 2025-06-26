@@ -19,6 +19,18 @@ body {
     background-position: center top 30px bottom 30px;
 }
 
+.trigger-shape {
+    position: absolute;
+    top: 14%; /* adjust as needed */
+    left: 33%; /* adjust as needed */
+    width: 470px;
+    height: 470px;
+    border-radius: 50%; /* circle shape - adjust or remove if rectangular */
+    background-color: rgba(255, 255, 255, 0); /* transparent */
+    cursor: pointer;
+    z-index: 10; /* make sure it's clickable above background */
+}
+
 header {
     position: fixed;
     top: 0;
@@ -159,7 +171,7 @@ header {
     align-items: center;
     border-bottom-left-radius: 20px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .form-box h2 {
