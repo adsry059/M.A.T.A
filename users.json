@@ -3,24 +3,28 @@
     "username": "Ejen Ali",
     "email": "ejenali.tekno@mata.com",
     "password": "ejenali0@MATA",
-    "group": "TEKNO"
+    "group": "TEKNO",
+    "credentials": []
   },
   {
     "username": "Ejen Alicia",
     "email": "ejenalicia.neuro@mata.com",
     "password": "ejenalicia0@MATA",
-    "group": "NEURO"
+    "group": "NEURO",
+    "credentials": []
   },
   {
     "username": "Ejen Bakar",
     "email": "ejenbakar.kombat@mata.com",
     "password": "ejenbakar0@MATA",
-    "group": "KOMBAT"
+    "group": "KOMBAT",
+    "credentials": []
   },
   {
     "username": "Ejen Rizwan",
     "email": "ejenrizwan.inviso@mata.com",
     "password": "ejenrizwan0@MATA",
-    "group": "INVISO"
+    "group": "INVISO",
+    "credentials": []
   }
 ]
